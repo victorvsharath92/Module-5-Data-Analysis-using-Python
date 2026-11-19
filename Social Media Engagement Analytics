@@ -1,0 +1,20 @@
+
+Social Media Engagement Analytics
+
+This project analyzed a social media engagement dataset containing 5,000 records using Python, NumPy, Pandas, Matplotlib, Seaborn, and Plotly. The objective was to clean the dataset, perform exploratory data analysis, generate visualizations, and identify factors influencing user engagement.
+
+During the data preparation phase, missing values were handled, duplicate records were removed, categorical variables were standardized, and additional features such as hashtag count and engagement score were created. Statistical analysis was performed on likes, comments, shares, watch time, follower count, and engagement rate to understand overall user interaction patterns.
+
+The analysis showed that video posts achieved the highest average engagement rate (1.122), followed by text posts (1.065), while reels generated the lowest engagement (0.783). Among content categories, Food was the best-performing category with an average engagement rate of 1.359, followed by Tech (1.160) and Lifestyle (1.091). Travel content recorded the lowest engagement rate.
+
+Country-level analysis revealed that Brazil had the highest average engagement rate (1.541), followed by Australia (1.324), France (1.146), and UAE (1.112). These regions demonstrated stronger audience interaction compared to other countries in the dataset.
+
+The analysis also identified a difference between verified and non-verified accounts. Verified accounts achieved a higher average engagement rate (1.054) than non-verified accounts (0.955), suggesting that verified profiles tend to receive greater audience interaction and visibility.
+
+Sentiment analysis showed that negative sentiment posts generated the highest engagement rate (1.038), followed by neutral sentiment posts (0.991). Positive sentiment posts recorded the lowest engagement rate (0.955). This indicates that content provoking discussion or reactions may attract greater user engagement.
+
+Multiple visualizations, including scatter plots, line charts, bar charts, histograms, box plots, heatmaps, violin plots, strip plots, and an interactive Plotly dashboard, were used to identify trends and relationships among engagement metrics.
+
+A limitation of the dataset was that the posted_at field contained only date information and did not include hours or minutes. As a result, it was not possible to accurately determine the best time of day for generating impressions.
+
+Overall, the analysis demonstrated that content type, content category, country, account verification status, and sentiment significantly influence social media engagement. These insights can help organizations optimize content strategies, improve audience targeting, and increase overall engagement performance.
